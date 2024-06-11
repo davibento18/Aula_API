@@ -1,0 +1,27 @@
+{
+    "info": {
+        "name": "status",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "verifica_status",
+            "request": {
+                "method": "PATCH",
+                "url": {
+                    "raw": "http://localhost/Aula-11-06/app/status/",
+                    "path": [
+                        "Aula-11-06",
+                        "app",
+                        "status"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ]
+                }
+            }
+        }
+    ]
+}
